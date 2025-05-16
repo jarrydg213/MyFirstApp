@@ -1,11 +1,4 @@
 
-h1{
-    font-family: sans-serif;
-}
-
-p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
 ul{
     list-style-image: url('images/pointer-icon.png');
@@ -29,6 +22,21 @@ ol{
 
 *{
     text-align: center;
-    background-color: dodgerblue;
+
+
+    
+}
+
+.top{
+
+background-color: cadetblue;
+}
+
+
+.bgImage{
+
+    background: url("images/dogbackground.jpg") center no-repeat;
     color: white;
+    text-align: center;
+    padding: 10px;
 }
