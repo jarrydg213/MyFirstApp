@@ -20,14 +20,10 @@ ol{
     color: #ffffff;
 }
 
-*{
-    text-align: center;
 
-
-    
-}
 
 .top{
+    text-align: center;
 
 background-color: cadetblue;
 }
@@ -39,4 +35,10 @@ background-color: cadetblue;
     color: white;
     text-align: center;
     padding: 10px;
+    
+}
+
+.bottom{
+    background-color: cadetblue;
+    text-align: center;
 }
