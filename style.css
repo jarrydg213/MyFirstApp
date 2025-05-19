@@ -1,44 +1,76 @@
+/*================ HEADER ===============*/
 
-
-ul{
-    list-style-image: url('images/pointer-icon.png');
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-color: forestgreen;
 }
 
-ol{
-    list-style-type: upper-roman;
+#header img{
+    display: block;
+    margin: auto;      
+    padding-top: px;
+    height: 100%; 
 }
 
-#menu-bar a{
-    text-decoration: none;
-    font-family: helvetica, sans-serif;
-    background-color: red;
-    padding: 5px;
+/*================ TOP-TABS ===============*/
+
+#top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 60px;
+    background-color: forestgreen;
 }
 
-#menu-bar a:hover{
-    background-color: aqua;
-    color: #ffffff;
-}
-
-
-
-.top{
-    text-align: center;
-
-background-color: cadetblue;
-}
-
-
-.bgImage{
-
-    background: url("images/dogbackground.jpg") center no-repeat;
+#top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 60px;
+    font-weight: 700;
     color: white;
     text-align: center;
-    padding: 10px;
-    
+    text-decoration: none;
+    padding-top: 20px;
 }
 
-.bottom{
-    background-color: cadetblue;
+/*================ MAIN ===============*/
+
+#main{
+    margin-top: 120px;
+    }
+
+    /*================ BOTTOM-TABS ===============*/
+
+#bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+#bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
     text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+body{
+    background-color: forestgreen;
 }
